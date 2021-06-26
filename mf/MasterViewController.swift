@@ -2,9 +2,9 @@
 //  MasterViewController.swift
 //  MyFaves2
 //
-//  Created by Charles Konkol on 9/11/17.
+//  Created by Lucia Guerrero on 6/26/21.
 //  Copyright © 2018 RockValleyCollege. All rights reserved.
-//  Updated 9/9/18
+//  Updated 6/26/21
 
 import UIKit
 
@@ -35,14 +35,14 @@ class MasterViewController: UITableViewController {
         // 4) Add items to 2 arrays
         //Menus
         ListOfPhotos = [
-            UIImage(named: "elephant.jpg")!,
-            UIImage(named: "lion.jpg")!,
-            UIImage(named: "tiger.jpg")!,
+            UIImage(named: "monkey.jpeg")!,
+            UIImage(named: "rhino.jpeg")!,
+            UIImage(named: "sea horse.jpeg")!,
             UIImage(named: "rvc.jpg")!
         ]
         
-        ListOfFavs = ["Home","Elephant","Lion", "Tiger"]
-        FavDetails = ["https://www.rockvalleycollege.edu/","https://www.worldwildlife.org/species/elephant","https://www.krugerpark.co.za/africa_lion.html", "https://en.wikipedia.org/wiki/Tiger"]
+        ListOfFavs = ["Home","Monkey","Rhino", "Sea horse"]
+        FavDetails = ["https://www.rockvalleycollege.edu/","https://www.scientificamerican.com/article/possible-autism-biomarker-found-in-monkeys/","https://www.thoughtco.com/lesson-3-learning-about-seahorses-1834130", "https://www.cincinnati.com/story/news/2020/10/01/woman-who-named-cincinnati-zoos-baby-rhino-chose-moniker-based-africa-and-her-father/5881538002/"]
         
         if let split = self.splitViewController {
             let controllers = split.viewControllers

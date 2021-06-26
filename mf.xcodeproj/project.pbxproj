@@ -10,6 +10,10 @@
 		15BE4CE226876FE500304077 /* elephant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15BE4CDF26876FE500304077 /* elephant.jpg */; };
 		15BE4CE326876FE500304077 /* lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15BE4CE026876FE500304077 /* lion.jpg */; };
 		15BE4CE426876FE500304077 /* tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15BE4CE126876FE500304077 /* tiger.jpg */; };
+		2442E4952687A93D002B8F0D /* Downloads in Resources */ = {isa = PBXBuildFile; fileRef = 2442E4942687A93D002B8F0D /* Downloads */; };
+		2442E4982687A9BE002B8F0D /* sea horse.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2442E4972687A9BE002B8F0D /* sea horse.jpeg */; };
+		2442E49B2687A9D0002B8F0D /* rhino.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2442E49A2687A9D0002B8F0D /* rhino.jpeg */; };
+		2442E49E2687A9DB002B8F0D /* monkey.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2442E49D2687A9DB002B8F0D /* monkey.jpeg */; };
 		36F2992D2325417E00B75CF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F2992C2325417E00B75CF5 /* AppDelegate.swift */; };
 		36F2992F2325417E00B75CF5 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F2992E2325417E00B75CF5 /* MasterViewController.swift */; };
 		36F299312325417E00B75CF5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F299302325417E00B75CF5 /* DetailViewController.swift */; };
@@ -27,6 +31,10 @@
 		15BE4CDF26876FE500304077 /* elephant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elephant.jpg; sourceTree = "<group>"; };
 		15BE4CE026876FE500304077 /* lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lion.jpg; sourceTree = "<group>"; };
 		15BE4CE126876FE500304077 /* tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiger.jpg; sourceTree = "<group>"; };
+		2442E4942687A93D002B8F0D /* Downloads */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Downloads; path = ../../../../Downloads; sourceTree = "<group>"; };
+		2442E4972687A9BE002B8F0D /* sea horse.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sea horse.jpeg"; path = "../../../../Downloads/sea horse.jpeg"; sourceTree = "<group>"; };
+		2442E49A2687A9D0002B8F0D /* rhino.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rhino.jpeg; path = ../../../../Downloads/rhino.jpeg; sourceTree = "<group>"; };
+		2442E49D2687A9DB002B8F0D /* monkey.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = monkey.jpeg; path = ../../../../Downloads/monkey.jpeg; sourceTree = "<group>"; };
 		36F299292325417E00B75CF5 /* mf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F2992C2325417E00B75CF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36F2992E2325417E00B75CF5 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +97,10 @@
 		36F299402325497500B75CF5 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				2442E49D2687A9DB002B8F0D /* monkey.jpeg */,
+				2442E49A2687A9D0002B8F0D /* rhino.jpeg */,
+				2442E4972687A9BE002B8F0D /* sea horse.jpeg */,
+				2442E4942687A93D002B8F0D /* Downloads */,
 				15BE4CDF26876FE500304077 /* elephant.jpg */,
 				15BE4CE026876FE500304077 /* lion.jpg */,
 				15BE4CE126876FE500304077 /* tiger.jpg */,
@@ -166,9 +178,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2442E4982687A9BE002B8F0D /* sea horse.jpeg in Resources */,
 				36F299392325418000B75CF5 /* LaunchScreen.storyboard in Resources */,
 				36F2994623254A3B00B75CF5 /* mall.jpg in Resources */,
 				15BE4CE326876FE500304077 /* lion.jpg in Resources */,
+				2442E49E2687A9DB002B8F0D /* monkey.jpeg in Resources */,
+				2442E4952687A93D002B8F0D /* Downloads in Resources */,
 				15BE4CE426876FE500304077 /* tiger.jpg in Resources */,
 				15BE4CE226876FE500304077 /* elephant.jpg in Resources */,
 				36F2994523254A3B00B75CF5 /* bike.jpg in Resources */,
@@ -176,6 +191,7 @@
 				36F2994B23254E6200B75CF5 /* rvc.jpg in Resources */,
 				36F2994423254A3B00B75CF5 /* googles.jpg in Resources */,
 				36F299342325417E00B75CF5 /* Main.storyboard in Resources */,
+				2442E49B2687A9D0002B8F0D /* rhino.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
